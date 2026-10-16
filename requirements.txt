@@ -1,0 +1,25 @@
+# ---------------------------------------------------------------
+# AI-Powered Adaptive Learning Chatbot - Python dependencies
+# Recommended: Python 3.10 or newer (3.11 tested)
+# ---------------------------------------------------------------
+
+# LangChain modular packages
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-text-splitters>=0.3.0
+langchain-chroma>=0.1.4
+langchain-huggingface>=0.1.0
+langchain-ollama>=0.2.0
+
+# Vector database
+chromadb>=0.5.0
+
+# Embeddings (HuggingFace all-MiniLM-L6-v2 runs through this library)
+sentence-transformers>=3.0.0
+
+# PDF parsing
+pypdf>=4.0.0
+
+# Web UI
+streamlit>=1.38.0
